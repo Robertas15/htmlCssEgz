@@ -33,6 +33,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 
 .row {
@@ -46,4 +47,41 @@ ul {
 .container {
     max-width: 90%;
     margin: 0 auto;
+}
+
+header {
+    align-items: center;
+    gap: 2em;
+    padding: 1.5em 0;
+    justify-content: space-between;
+}
+
+nav ul {
+    align-items: center;
+    gap: 2em;
+}
+
+.logo {
+    fill: brown;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+nav li:nth-of-type(4) {
+    color: brown;
+}
+
+.hero h6 {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.hero p {
+    font-size: 20px;
+    color: black;
+    padding: 1.5em 0;
 }
