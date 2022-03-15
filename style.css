@@ -85,18 +85,14 @@ nav a {
 
 .free {
     height: 250px;
-    align-items: center;
     background-image: url(/assets/background.svg);
-    background-position: center;
-    margin: 20px auto;
-    border-radius: 15px;
-    justify-content:flex-end;
+    border-radius: 30px;
 }
 
 .free-content {
-    font-size: 20px;
-    text-align:left;
-    padding: 50px 20px;
+    font-size: 22px;
+    text-align: left;
+    padding: 130px 50px;
 }
 
 .logo {
