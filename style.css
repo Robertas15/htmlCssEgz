@@ -81,30 +81,6 @@ nav a {
 
 /* .hero div, .launch div {
     max-width: 500px;
-}
-
-.hero h1 {
-    font-weight: 900;
-    font-size: clamp(60px, 10vw, 100px);
-    color: black;
-}
-
-.hero p, .launch p {
-    font-size: 20px;
-    color: black;
-    padding: 1em 0;
-}
-
-.hero a, .launch a {
-    font-size: 20px;
-    color: black;
-    border: 4px solid rgb(255, 226, 99);
-    padding: 10px 20px;
-    border-radius: 100px;
-}
-
-.hero a:hover, .launch a:hover {
-    border-color: rgb(250, 164, 36);
 } */
 
 .free {
