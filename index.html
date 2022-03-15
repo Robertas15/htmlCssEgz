@@ -15,14 +15,14 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Smooch+Sans:wght@100&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/2617eb3c9a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="js.js">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <!-- navigacijos pradzia -->
-
+    <!-- navigation -->
     <header class="row container">
         <a href="#" class="logo">
             <svg width="198" height="36" viewBox="0 0 198 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,8 +37,8 @@
                     fill="#111111" />
             </svg>
         </a>
-        <div class="toogleMenu" onclick="toogleMenu();"></div>
-        <nav class="navigation row">
+        <div class="toogle-menu" onclick="toogleMenu();"></div>
+        <nav class="navigation">
             <ul>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">About</a></li>
@@ -48,10 +48,10 @@
             </ul>
         </nav>
     </header>
+    <!-- navigation end -->
 
-    <!-- Hero -->
-
-    <section class="hero row container">
+    <!-- launching soon -->
+    <section class="hero">
         <div>
             <h6>Launching soon</h6>
             <h1>An NFT like no other</h1>
@@ -62,73 +62,70 @@
             <img src="/assets/graphic.svg" alt="">
         </div>
     </section>
+    <!-- launching soon end -->
 
-    <!-- Free -->
-
-    <section class="free row container">
+    <!-- free -->
+    <section class="free">
         <div class="free-content">
-            <img src="/assets/background.svg" alt="">
-            <h2>Free NFT for erly birds</h2>
+            <h3>Free NFT for erly birds</h3>
             <p>sing up today and you'll get free NFT when we launch</p>
         </div>
     </section>
+    <!-- free end -->
 
     <!-- logo -->
-
-    <section class="logos row container">
+    <section class="logo">
         <img src="/assets/companies/1.svg" alt="">
         <img src="/assets/companies/2.svg" alt="">
         <img src="/assets/companies/3.svg" alt="">
         <img src="/assets/companies/4.svg" alt="">
         <img src="/assets/companies/5.svg" alt="">
     </section>
+    <!-- logo end -->
 
     <!-- auction -->
-
-    <section class="auction container">
+    <section class="auction">
         <div class="auction-content">
             <h2>LE Super Rare Auction</h2>
             <p>We have releasd four limited edition NFT's early wich can be bid on via <a href="#">OpenSea.</a></p>
         </div>
-        <div class="auction-card row">
-            <div class="card-img"><img src="/assets/ntfs/ntf-1.svg" alt=""></div>
-            <div class="card-content">
-                <div class="card-left">
-                    <h6>Gloop Series</h6>
-                    <h5>Purple Man</h5>
-                    <p>#12983</p>
-                </div>
-                <div class="card-right">
-                    <h6>Top bid</h6>
-                    <div class="row">
-                        <img src="/assets/eth.svg" alt="">
-                        <h5>2.99</h5>
+        <div class="auction-card">
+            <div class="card">
+                <div class="card-img"><img src="/assets/ntfs/ntf-1.svg" alt=""></div>
+                <div class="card-content">
+                    <div class="card-left">
+                        <h6>Gloop Series</h6>
+                        <h5>Purple Man</h5>
+                        <p>#12983</p>
                     </div>
-                    <p>1 day left</p>
+                    <div class="card-right">
+                        <h6>Top bid</h6>
+                        <div class="row">
+                            <img src="/assets/eth.svg" alt="">
+                            <h5>2.99</h5>
+                        </div>
+                        <p>1 day left</p>
+                    </div>
                 </div>
             </div>
-        <!-- </div> -->
-
-        <!-- <div class="auction-card row"> -->
-            <div class="card-img"><img src="/assets/ntfs/nft-2.svg" alt=""></div>
-            <div class="card-content">
-                <div class="card-left">
-                    <h6>Gloop Series</h6>
-                    <h5>Beige</h5>
-                    <p>#12983</p>
-                </div>
-                <div class="card-right">
-                    <h6>Top bid</h6>
-                    <div class="row">
-                        <img src="/assets/eth.svg" alt="">
-                        <h5>2.99</h5>
+            <div class="card">
+                <div class="card-img"><img src="/assets/ntfs/nft-2.svg" alt=""></div>
+                <div class="card-content">
+                    <div class="card-left">
+                        <h6>Gloop Series</h6>
+                        <h5>Beige</h5>
+                        <p>#12983</p>
                     </div>
-                    <p>1 day left</p>
+                    <div class="card-right">
+                        <h6>Top bid</h6>
+                        <div class="row">
+                            <img src="/assets/eth.svg" alt="">
+                            <h5>2.99</h5>
+                        </div>
+                        <p>1 day left</p>
+                    </div>
                 </div>
             </div>
-        <!-- </div> -->
-
-        <!-- <div class="auction-card row"> -->
             <div class="card">
                 <div class="card-img"><img src="/assets/ntfs/ntf-3.svg" alt=""></div>
                 <div class="card-content">
@@ -146,8 +143,8 @@
                         <p>1 day left</p>
                     </div>
                 </div>
-            <!-- </div> -->
-            <!-- <div class="auction-card row"> -->
+            </div>
+            <div class="card">
                 <div class="card-img"><img src="/assets/ntfs/ntf-4.svg" alt=""></div>
                 <div class="card-content">
                     <div class="card-left">
@@ -167,13 +164,12 @@
             </div>
         </div>
     </section>
+    <!-- auction end -->
 
     <!-- release -->
-
-    <section class="release column container">
+    <section class="launch">
         <div class="release-card row">
             <div class="release-content">
-                <h4></h4>
                 <h6>Launching soon</h6>
                 <h1>An NFT like no other</h1>
                 <p>Don't miss out on the release of our new NFT. Sing up you recive update when we go live</p>
@@ -184,10 +180,10 @@
             </div>
         </div>
     </section>
+    <!-- release end -->
 
     <!-- footer -->
-
-    <footer class="container">
+    <footer class="footer">
         <div class="footer row">
             <div class="footer-content">
                 <a href="#" class="logo">
@@ -204,13 +200,13 @@
                     </svg>
                 </a>
                 <p>Exclusive NFT collection</p>
-                <div class="social-links row">
+                <div class="social-links">
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#"><i class="fa-brands fa-tiktok"></i></a>
                 </div>
-                <div class="footer-links row">
+                <div class="footer-links">
                     <div>
                         <h3>About</h3>
                         <ul>
@@ -244,9 +240,10 @@
                 </div>
             </div>
         </div>
-        <p class="copyRight">&copy; Copyrights 2022 NFTlanding</p>
-        <p>Launching August 2022</p>
+        <p class="copyright">&copy; Copyrights 2022 NFTlanding</p>
+        <p class="launching">Launching August 2022</p>
     </footer>
+    <!-- footer end -->
 
 </body>
 
