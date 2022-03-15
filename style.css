@@ -95,16 +95,20 @@ nav a {
     padding: 130px 50px;
 }
 
-.logo {
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding: 20px 0;
+.free h3 {
+    padding-bottom: 15px;
+    font-weight: 700;
 }
 
-.logo img {
-    max-width: 120px;
+.free p {
+    font-size: 15px;
+}
+
+.logo2 {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
 }
 
 .auction {
