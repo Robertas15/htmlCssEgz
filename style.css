@@ -43,7 +43,7 @@ nav a {
     font-size: 20px;
 }
 
-.hero {
+.hero, .launch{
     display: flex;
     font-weight: 900;
     padding: 35px 0;
@@ -57,31 +57,27 @@ nav a {
     color:deeppink;
 }
 
-.hero h1 {
+.hero h1, .launch h1 {
     font-size: 100px;
     font-weight: 900;
 }
 
-.hero p {
+.hero p, .launch p {
     font-size: 20px;
     padding: 15px 0;
     color:grey;
 }
 
-.hero a {
+.hero a, .launch a{
     font-size: 20px;
     border: 4px solid rgb(245, 229, 10);
     border-radius: 100px;
     padding: 10px 20px;
 }
 
-.hero a:hover {
+.hero a:hover, .launch a:hover {
     border-color: rgb(235, 169, 27);
 }
-
-/* .hero div, .launch div {
-    max-width: 500px;
-} */
 
 .free {
     height: 250px;
@@ -111,14 +107,8 @@ nav a {
     margin: 20px auto;
 }
 
-.auction {
-    padding: 20px 0;
-}
-
-.auction-content h2 {
-    font-weight: 500;
-    font-size: 30px;
-    color:black;
+.auction-content a {
+    text-decoration:underline;
 }
 
 .auction-content p {
@@ -128,13 +118,72 @@ nav a {
 }
 
 .auction-card {
-    padding: 20px 0;
-    gap: 20px;
+    display: flex;
     justify-content: space-between;
+    width: 90%;
 }
 
 .card {
-    max-width: 150px;
+    background-color: rgb(235, 232, 232);
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+}
+
+.card-left {
+    width: 49%;
+    padding: 20px;
+}
+
+.card-right {
+    width: 49%;
+    padding: 20px;
+    text-align: right;
+}
+
+.card-right img {
+    padding-right: 10px;
+}
+
+.card-left h6 {
+    color: orange;
+    font-size: 15px;
+}
+
+.card-right h6 {
+    color: rgb(128, 127, 127);
+    font-size: 15px;
+}
+
+.card-left h5 {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-right h5 {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-left p {
+    color: rgb(128, 127, 127);
+}
+
+.card-right p {
+    color: rgb(128, 127, 127);
+}
+
+.launch {
+    display: flex;
+    font-weight: 900;
+    padding: 35px 0;
+    align-items: center;
 }
 
 .launch h1 {
